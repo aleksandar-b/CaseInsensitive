@@ -1,6 +1,7 @@
 {
-  "name": "caseinsensitive",
+  "name": "igetter",
   "version": "1.0.0",
+  "private": false,
   "description": "Case insensitive property access",
   "main": "index.js",
   "scripts": {
