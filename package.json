@@ -1,6 +1,6 @@
 {
   "name": "igetter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "Case insensitive property access",
   "main": "index.js",
