@@ -1,0 +1,26 @@
+{
+  "name": "caseinsensitive",
+  "version": "1.0.0",
+  "description": "Case insensitive property access",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandar-b/CaseInsensitive.git"
+  },
+  "keywords": [
+    "object",
+    "property",
+    "access",
+    "case",
+    "insensitive"
+  ],
+  "author": "Alex Brajkovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandar-b/CaseInsensitive/issues"
+  },
+  "homepage": "https://github.com/aleksandar-b/CaseInsensitive#readme"
+}
