@@ -1,10 +1,11 @@
 
   ### Proxy wrapper for case insensitive object prop access. Makes all keys uppercase by default.
   
-  const igetter = require('igetter');
 
   ### Objects
   ``` javascript
+  const igetter = require('igetter');
+
   const wrapped = igetter({ name: "John", extra: { public: true } });
 
   console.log(wrapper) // { NAME: "John", EXTRA: { PUBLIC: true} }
@@ -15,6 +16,8 @@
 ```
   ### Arrays
 ``` javascript
+  const igetter = require('igetter');
+  
   const wrapped = igetter({ 
     data: { 
       items: [
