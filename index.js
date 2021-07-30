@@ -31,7 +31,7 @@ const caseInsensitive = obj => {
 
   let newObj;
 
-  if (typeof obj === "object" && obj) {
+  if (typeof obj === "object" && obj && obj.constructor === Object) {
     newObj = new Proxy({}, handler);
     for (const key in obj) {
       if (typeof key === "string") {
@@ -42,6 +42,7 @@ const caseInsensitive = obj => {
     }
   } else if (Array.isArray(obj)) {
     newObj = [];
+    console.log('check1', obj)
     for (let i = 0; i < obj.length; i++) newObj[i] = checkAtomic(obj[i]);
   }
   return newObj;
