@@ -42,7 +42,6 @@ const caseInsensitive = obj => {
     }
   } else if (Array.isArray(obj)) {
     newObj = [];
-    console.log('check1', obj)
     for (let i = 0; i < obj.length; i++) newObj[i] = checkAtomic(obj[i]);
   }
   return newObj;
